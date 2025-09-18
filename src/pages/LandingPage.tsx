@@ -20,8 +20,8 @@ const LandingPage = () => {
         <p> &gt; </p>
           </div></button>
           <p className="mt-13">Image</p>
-        <p>Powering the world's best product teams.</p>
-        <p>From next-gen startups to established enterprises.</p>
+        <p>Powering the world's best product teams. From next-gen startups to established enterprises.</p>
+        
     </div>
   )
 }
