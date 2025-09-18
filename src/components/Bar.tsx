@@ -1,7 +1,16 @@
 
 const Bar = () => {
   return (
-    <div>Bar</div>
+    <div className="flex justify-between">
+      {/* main bar */}
+      <div className="flex">
+
+      </div>
+      {/* login and signup */}
+      <div>
+        
+      </div>
+    </div>
   )
 }
 
