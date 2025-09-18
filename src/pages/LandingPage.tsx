@@ -2,12 +2,12 @@ import Bar from "../components/Bar"
 
 const LandingPage = () => {
   return (
-    <div className="w-screen h-screen">
+    <div className="">
         <Bar></Bar>
         {/* title card */}
         <div>
           {/* introducing linear heights */}
-          <div className="flex">
+          <div className="flex justify-center items-center">
             <p>Introducing Linear Insights</p>
             <p> -&gt; </p>
           </div>

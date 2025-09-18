@@ -22,7 +22,15 @@ const Bar = () => {
           </div>
         </div>
       </div>
-      
+      {/* sm-md screens */}
+      <div className="flex justify-between items-center w-full">
+        <p>-</p>  
+        {/* login and signin */}
+        <div className="gap-x-3 flex">
+        <button>Login</button>
+          <button>Sign up</button>
+        </div>
+      </div>
     </div>
   )
 }
