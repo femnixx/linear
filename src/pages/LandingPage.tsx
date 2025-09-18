@@ -2,7 +2,7 @@ import Bar from "../components/Bar"
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="w-screen h-screen">
         <Bar></Bar>
     </div>
   )
