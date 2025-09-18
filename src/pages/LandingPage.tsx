@@ -2,7 +2,7 @@ import Bar from "../components/Bar"
 
 const LandingPage = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
         <Bar></Bar>
         {/* title card */}
         <div>
@@ -19,6 +19,8 @@ const LandingPage = () => {
           <p>Get Started</p>
         <p> &gt; </p>
           </div></button>
+          <p className="mt-13">Image</p>
+
     </div>
   )
 }
