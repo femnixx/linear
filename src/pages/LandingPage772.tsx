@@ -10,7 +10,13 @@ const LandingPage772 = () => {
     </div>
         {/* Fog effect and line */}
         <div>
+          <div className="">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] 
+                bg-[radial-gradient(ellipse_at_center,rgba(120,120,200,0.3),transparent_70%)] 
+                blur-3xl opacity-70 pointer-events-none">
+</div>
 
+          </div>
         </div>
       <div className="relative mt-20"> 
 
