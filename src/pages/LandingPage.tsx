@@ -19,7 +19,7 @@ const LandingPage = () => {
     <p className="mt-4 text-gray-300 text-center">Meet the new standard for modern software development.</p>
     <div className="w-full flex justify-center">
       <button className=" text-sm w-fit mt-6 px-6 py-3 bg-gradient-to-r from-[#455EB5] via-[#5643CC] to-[#673FD7] rounded-full shadow-lg">
-        Get Started &gt; hi
+        Get Started &gt;
       </button>
     </div>
   </div>
