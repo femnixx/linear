@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-     <LandingPage></LandingPage>
+     <div className=''>
+       <LandingPage></LandingPage>
+     </div>
     </>
   )
 }

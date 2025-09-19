@@ -2,7 +2,7 @@ import Bar from "../components/Bar"
 
 const LandingPage = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden bg-gradient-to-b from-[#7877C64D]/30 to-[#FFFFFF]/0">
         <Bar></Bar>
         {/* title card */}
         <div>
@@ -21,7 +21,9 @@ const LandingPage = () => {
           </div></button>
           <p className="mt-13">Image</p>
         <p>Powering the world's best product teams. From next-gen startups to established enterprises.</p>
-        
+        <div>
+          logos
+        </div>
     </div>
   )
 }
