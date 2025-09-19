@@ -1,5 +1,8 @@
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
 import Frame from "../assets/Frame.png";
 import Bar from "../components/Bar";
+gsap.registerPlugin(useGSAP);
 
 const LandingPage = () => {
   return (
