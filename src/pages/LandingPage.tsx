@@ -4,7 +4,7 @@ import Bar from "../components/Bar";
 const LandingPage = () => {
   return (
    <>
-  <div className="relative min-h-screen bg-gradient-to-b from-[#0f0f1a] to-[#1a1a2e] overflow-hidden">
+  <div className="relative min-h-screen bg-gradient-to-b from-[#0f0f1a] to-[#1a1a2e] overflow-x-hidden">
   {/* <!-- Glow effect --> */}
   <div className="absolute inset-0.5 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1),transparent_70%)] pointer-events-none"></div>
 
@@ -24,7 +24,7 @@ const LandingPage = () => {
         Get Started &gt;
       </button>
     </div>
-    <img src={Frame} alt="frame " className="mt-10 mx-5"/>
+    <img src={Frame} alt="frame " className="mt-10 mx-5 shadow-lg shadow-white/10"/>
   </div>
 </div>
    </>
