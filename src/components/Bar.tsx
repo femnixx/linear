@@ -1,3 +1,4 @@
+import menubutton from "../assets/menubutton.svg"
 
 const Bar = () => {
   return (
@@ -24,7 +25,7 @@ const Bar = () => {
       </div>
       {/* sm-md screens */}
       <div className="flex justify-between items-center w-full">
-        <p>-</p>  
+        <button className="hover:cursor-pointer border-white/30 border-2 rounded-full p-1 bg-white/20"><img src={menubutton} alt="menu hamburger" /> </button> 
         {/* login and signin */}
         <div className="gap-x-3 flex">
         <button>Login</button>
