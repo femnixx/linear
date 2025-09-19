@@ -1,3 +1,4 @@
+
 const LandingPage772 = () => {
   return (
     <div className="relative bg-[#000212] w-full h-screen overflow-hidden">
@@ -20,9 +21,6 @@ const LandingPage772 = () => {
         </div>
       <div className="relative mt-20"> 
 
-        {/* Top border */}
-        {/* <div className=" inset-0 border-t border-white pt-4 rounded-t-full mx-5 absolute top:2"></div> */}
-
         {/* Text Content */}
         <p className="text-white text-center text-2xl font-semibold mt-4 mx-5">
           Unlike any tool you've used before
@@ -31,6 +29,7 @@ const LandingPage772 = () => {
           Designed to the last pixel and engineered with unforgiving precision,
           Linear combines UI elegance with world-class performance.
         </p>
+
       </div>
     </div>
   );
