@@ -8,8 +8,14 @@ const LandingPage = () => {
 
   {/* <!-- Content --> */}
   <Bar></Bar>
-  <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-white">
-    <h1 className="text-4xl font-bold">Linear is a better way to build products</h1>
+  <div className="relative z-10 flex flex-col justify-center min-h-screen text-white">
+    <div className="w-full flex justify-center items-center">
+      <div className="flex items-center justify-center gap-x-3 bg-white/5 w-fit rounded-full px-3 py-1">
+        <p className="text-xs ">Introducing Linear Insights</p>
+        <div className="rounded-full px-3 bg-white/5"><p>-&gt;</p></div>
+      </div>
+    </div>
+    <h1 className="text-4xl font-bold text-center mx-5">Linear is a better way to build products</h1>
     <p className="mt-4 text-lg text-gray-300">Meet the new standard for modern software development.</p>
     <button className="mt-6 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg shadow-lg">
       Get Started
