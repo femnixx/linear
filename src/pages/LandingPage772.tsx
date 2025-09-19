@@ -21,13 +21,13 @@ const LandingPage772 = () => {
       <div className="relative mt-20"> 
 
         {/* Top border */}
-        <div className=" inset-0 border-t border-white pt-4 rounded-t-full mx-5 absolute top:2"></div>
+        {/* <div className=" inset-0 border-t border-white pt-4 rounded-t-full mx-5 absolute top:2"></div> */}
 
         {/* Text Content */}
-        <p className="text-white text-center text-lg mt-4">
+        <p className="text-white text-center text-2xl font-semibold mt-4 mx-5">
           Unlike any tool you've used before
         </p>
-        <p className="text-gray-400 text-center mt-2 max-w-2xl mx-auto">
+        <p className="text-gray-400 text-center mt-2 max-w-2xl mx-5 text-sm">
           Designed to the last pixel and engineered with unforgiving precision,
           Linear combines UI elegance with world-class performance.
         </p>
