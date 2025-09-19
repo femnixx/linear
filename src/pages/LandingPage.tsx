@@ -2,6 +2,9 @@
 const LandingPage = () => {
   return (
    <>
+   <div className="">
+
+   </div>
    </>
   )
 }
