@@ -10,7 +10,7 @@ const LandingPage = () => {
 
   {/* <!-- Content --> */}
   <Bar></Bar>
-  <div className="flex flex-col justify-center mt-10 text-white">
+  <div className="flex flex-col justify-center mt-8 text-white">
     <div className="w-full flex justify-center items-center">
       <div className="flex items-center justify-center gap-x-3 bg-white/5 w-fit rounded-full pl-3 pr-1.5 py-1">
         <p className="text-xs ">Introducing Linear Insights</p>
@@ -18,13 +18,17 @@ const LandingPage = () => {
       </div>
     </div>
     <h1 className="text-3xl font-bold text-center mx-3 mt-6">Linear is a better way to build products</h1>
-    <p className="mt-4 text-gray-300 text-center text-sm">Meet the new standard  for modern <br></br> software development.</p>
+    <p className="mt-2 text-gray-300 text-center text-sm">Meet the new standard  for modern <br></br> software development.</p>
     <div className="w-full flex justify-center">
-      <button className=" text-sm w-fit mt-6 px-3 py-2.5 bg-gradient-to-r from-[#455EB5] via-[#5643CC] to-[#673FD7] rounded-full shadow-lg">
+      <button className=" text-sm w-fit mt-4 px-3 py-2.5 bg-gradient-to-r from-[#455EB5] via-[#5643CC] to-[#673FD7] rounded-full shadow-lg">
         Get Started &gt;
       </button>
     </div>
-    <img src={Frame} alt="frame " className="mt-10 mx-5 shadow-lg shadow-white/10"/>
+    <img src={Frame} alt="frame " className="mt-8 mx-5 shadow-lg shadow-white/10"/>
+    <div className="text-center gap-y-0.5 flex flex-col mt-8 my-2">
+      <p className="text-xs text-[#B4BCD0]">Powering the world's best product teams.</p>
+      <p className="text-sm">From next-gen startups to established enterprises.</p>
+    </div>
   </div>
 </div>
    </>
