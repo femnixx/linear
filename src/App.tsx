@@ -1,12 +1,11 @@
 import './App.css'
-import LandingPage from './pages/LandingPage'
 
 function App() {
-  return (
-    <div className="min-h-screen min-w-screen bg-black overflow-x-hidden overflow-y-hidden">
-      <LandingPage />
-    </div>
-  )
+  return <>
+  <div className='bg-black w-full h-full'>
+    <p>hi</p>
+  </div>
+  </>
 }
 
 export default App
