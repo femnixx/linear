@@ -21,7 +21,7 @@ const LandingPage772 = () => {
       <div className="relative mt-20"> 
 
         {/* Top border */}
-        <div className="absolute inset-0 border-t border-white pt-4 rounded-t-full mx-5 mt-10"></div>
+        <div className=" inset-0 border-t border-white pt-4 rounded-t-full mx-5 absolute top:2"></div>
 
         {/* Text Content */}
         <p className="text-white text-center text-lg mt-4">
