@@ -1,7 +1,9 @@
 
 const LandingPage772 = () => {
   return (
-    <div>LandingPage772</div>
+    <div className="bg-black w-full h-full">
+            hi
+    </div>
   )
 }
 

@@ -2,6 +2,8 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import Frame from "../assets/Frame.png";
 import Bar from "../components/Bar";
+import LandingPage772 from "./LandingPage772";
+
 gsap.registerPlugin(useGSAP);
 
 const LandingPage = () => {
@@ -32,6 +34,7 @@ const LandingPage = () => {
       <p className="text-xs text-[#B4BCD0]">Powering the world's best product teams.</p>
       <p className="text-sm">From next-gen startups to established enterprises.</p>
     </div>
+    <LandingPage772></LandingPage772>
   </div>
 </div>
    </>
