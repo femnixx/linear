@@ -1,7 +1,7 @@
 
 const Bar = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between text-white">
       {/* lg screens and above */}
       <div className="max-lg:hidden">
         {/* main bar */}
