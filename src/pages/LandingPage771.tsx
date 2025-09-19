@@ -9,7 +9,7 @@ gsap.registerPlugin(useGSAP);
 const LandingPage = () => {
   return (
    <>
-  <div className="relative min-h-screen bg-gradient-to-b from-[#0f0f1a] to-[#1a1a2e] overflow-x-hidden">
+  <div className="relative min-h-screen bg-gradient-to-b from-[#000212] to-[#1a1a2e] overflow-x-hidden">
   {/* <!-- Glow effect --> */}
   <div className="absolute inset-0.5 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08),transparent_90%)] pointer-events-none"></div>
 
@@ -33,6 +33,13 @@ const LandingPage = () => {
     <div className="text-center gap-y-0.5 flex flex-col mt-8 my-2">
       <p className="text-xs text-[#B4BCD0]">Powering the world's best product teams.</p>
       <p className="text-sm">From next-gen startups to established enterprises.</p>
+    </div>
+    <div className="flex gap-x-5 mb-2">
+      <p>LOGO</p>
+      <p>LOGO</p>
+      <p>LOGO</p>
+      <p>LOGO</p>
+      <p>LOGO</p>
     </div>
     <LandingPage772></LandingPage772>
   </div>
