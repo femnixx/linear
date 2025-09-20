@@ -34,7 +34,7 @@ const LandingPage = () => {
       <p className="text-xs text-[#B4BCD0]">Powering the world's best product teams.</p>
       <p className="text-sm">From next-gen startups to established enterprises.</p>
     </div>
-    <div className="flex gap-x-5 mb-2">
+    <div className="flex gap-x-5 mb-2 justify-center">
       <p>LOGO</p>
       <p>LOGO</p>
       <p>LOGO</p>
