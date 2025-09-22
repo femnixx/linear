@@ -39,7 +39,7 @@ const LandingPage772 = () => {
       <div className=" flex flex-col">
             
             {/* keyboard */}
-            <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5 flex flex-col justify-center items-center text-center">
+            <div className="bg-white/7 p-2 mx-5 rounded-xl mt-5 flex flex-col justify-center items-center text-center">
               <img src={keyboard} alt="" className="bg-white/10 p-0.5 rounded-lg"/>
               <div className="flex items-center justify-end gap-x-3">
 
@@ -76,8 +76,10 @@ const LandingPage772 = () => {
             </div>
 
             {/* commandline */}
-            <div className="">
-              <img src={commandline} alt="" />
+            <div className="p-2 bg-white/10 text-center m-5 flex flex-col items-center justify-center gap-y-2 rounded-xl">
+              <p className="font-bold">Meet your command line</p>
+              <p className="text-center text-xs">Complete any action in seconds with the global command menu.</p>
+              <img src={commandline} alt="" className="mt-5"/>
             </div>
           </div>
     </div>
