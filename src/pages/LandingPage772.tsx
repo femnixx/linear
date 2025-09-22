@@ -39,17 +39,16 @@ const LandingPage772 = () => {
       <div className=" flex flex-col">
             
             {/* keyboard */}
-            <div className="bg-white/7 p-3 mx-5 rounded-xl mt-5">
+            <div className="bg-white/7 p-3 mx-5 rounded-xl mt-5 ">
               <img src={keyboard} alt="" />
-              <div className="flex overflow-x-auto gap-x-2 my-2">
-                <p>hi</p>
+              <div className="flex x-scroll gap-x-1 justify-end">
               <div className="flex pr-1 gap-x-0.5 text-xs bg-white/10 rounded-full px-2">
-                <p className="">K</p>
-                <p>Opens command line</p>
+                <p className="text-[12px]">K</p>
+                <p className="text-[10px]">Opens command line</p>
               </div>
               <div className="flex gap-x-1 pr-1 text-xs bg-white/10 rounded-full px-2">
-                <p className="">I</p>
-                <p>Assign issue to me</p>
+                <p className="text-[12px]">I</p>
+                <p className="text-[10px]">Assign issue to me</p>
               </div>
               </div>
               <p>Built for your keyboard</p>
