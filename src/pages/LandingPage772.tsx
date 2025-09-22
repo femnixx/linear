@@ -41,6 +41,18 @@ const LandingPage772 = () => {
             {/* keyboard */}
             <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5 flex flex-col justify-center items-center text-center">
               <img src={keyboard} alt="" className="bg-white/10 p-0.5 rounded-lg"/>
+              <div className="flex items-center justify-end gap-x-3">
+
+                <div className="flex gap-x-1">
+                  <p className="text-[10px]">^K</p>
+                  <p className="text-[10px]">Opens command line</p>
+                </div>
+
+                <div className="flex gap-x-1">
+                  <p className="text-[10px]">^I</p>
+                  <p className="text-[10px]">Assign issue to me</p>
+                </div>
+              </div>
               <p className="font-bold mt-5">Built for your keyboard</p>
               <p className="text-xs mt-1.5">Fly through your tasks with rapid-fire keyboards hortcuts for everything. Literally everything.</p>
             </div>
