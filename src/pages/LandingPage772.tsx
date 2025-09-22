@@ -37,14 +37,15 @@ const LandingPage772 = () => {
         
       </div>
       <div className=" flex flex-col">
-            <div className="bg-white/7 p-3 mx-5 rounded-xl">
+            
+            <div className="bg-white/7 p-3 mx-5 rounded-xl mt-5">
               <img src={keyboard} alt="" />
               <div className="flex">
-              <div className="flex pr-1 gap-x-0.5 text-xs">
+              <div className="flex pr-1 gap-x-0.5 text-xs bg-white/10 rounded-full px-2">
                 <p className="">K</p>
                 <p>Opens command line</p>
               </div>
-              <div className="flex gap-x-1 pr-1 text-xs">
+              <div className="flex gap-x-1 pr-1 text-xs bg-white/10 rounded-full px-2">
                 <p className="">I</p>
                 <p>Assign issue to me</p>
               </div>
