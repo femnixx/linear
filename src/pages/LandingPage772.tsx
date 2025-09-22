@@ -39,6 +39,16 @@ const LandingPage772 = () => {
       <div className=" flex flex-col">
             <div className="bg-white/7 p-5 mx-5 rounded-xl">
               <img src={keyboard} alt="" />
+              <div className="flex">
+              <div className="flex gap-x-3">
+                <p className="pr-1">K</p>
+                <p>Opens command line</p>
+              </div>
+              <div className="flex gap-x-3">
+                <p className="pr-1">I</p>
+                <p>Assign issue to </p>
+              </div>
+              </div>
               <p>Built for your keyboard</p>
               <p>Fly through your tasks with rapid-fire keyboards hortcuts for everything. Literally everything.</p>
             </div>
