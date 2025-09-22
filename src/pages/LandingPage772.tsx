@@ -1,7 +1,11 @@
+import circleshadow from "../assets/circleshadow.svg";
+import keyboard from "../assets/keyboard.svg";
+import lightning from "../assets/lightning.svg";
+
 
 const LandingPage772 = () => {
   return (
-    <div className="relative bg-[#000212] w-full h-screen overflow-hidden">
+    <div className="relative bg-[#000212] w-full h-screen overflow-x-hidden">
       <div className="flex gap-x-5 mt-3 justify-center">
       <p>LOGO</p>
       <p>LOGO</p>
@@ -21,7 +25,7 @@ const LandingPage772 = () => {
         </div>
       <div></div>
       <div className="relative mt-20"> 
-      
+          <p className="text-center">curve here</p>
         {/* Text Content */}
         <p className="text-white text-center text-2xl font-semibold mt-4 mx-5">
           Unlike any tool you've used before
@@ -32,6 +36,19 @@ const LandingPage772 = () => {
         </p>
         
       </div>
+      <div className=" flex flex-col">
+            <div className="bg-white/7 p-5 mx-5 rounded-xl">
+              <img src={keyboard} alt="" />
+              <p>Built for your keyboard</p>
+              <p>Fly through your tasks with rapid-fire keyboards hortcuts for everything. Literally everything.</p>
+            </div>
+            <div>
+              <img src={lightning} alt="" />
+            </div>
+            <div>
+              <img src={circleshadow} alt="" />
+            </div>
+          </div>
     </div>
   );
 };
