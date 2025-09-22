@@ -58,16 +58,18 @@ const LandingPage772 = () => {
             </div>
             
             {/* lightning */}
-            <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5">
+            <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5 flex flex-col gap-y-2">
               <img src={lightning} alt="" />
-              <p className="text-center font-bold">Breathtakingly fast</p>
-              <p className="text-center text-xs">Built for speed with 50ms interactions and real-time sync.</p>
+              <div className="-mt-15">
+                <p className="text-center font-bold">Breathtakingly fast</p>
+                <p className="text-center text-xs">Built for speed with 50ms interactions and real-time sync.</p>
+              </div>
             </div>
 
             {/* circleshadow */}
-            <div className="text-center bg-white/10 rounded-xl p-5 m-5">
+            <div className="text-center bg-white/10 rounded-xl p-5 m-5 flex items-center justify-center flex-col">
               <img src={circleshadow} alt="" className="h-fit"/>
-              <div className="-mt-25">
+              <div className="-mt-25 w-3/4 gap-y-2 flex flex-col">
                 <p className="font-bold">Designed for modern software teams</p>
                 <p className="text-xs">Comes with built-in workflows that create focus and routine.</p>
               </div>
