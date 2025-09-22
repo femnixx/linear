@@ -1,7 +1,7 @@
 import circleshadow from "../assets/circleshadow.svg";
+import commandline from "../assets/commandline.svg";
 import keyboard from "../assets/keyboard.svg";
 import lightning from "../assets/lightning.svg";
-
 
 const LandingPage772 = () => {
   return (
@@ -62,6 +62,11 @@ const LandingPage772 = () => {
             
             <div>
               <img src={circleshadow} alt="" />
+
+            </div>
+
+            <div className="">
+              <img src={commandline} alt="" />
             </div>
           </div>
     </div>
