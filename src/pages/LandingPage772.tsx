@@ -38,9 +38,11 @@ const LandingPage772 = () => {
       </div>
       <div className=" flex flex-col">
             
+            {/* keyboard */}
             <div className="bg-white/7 p-3 mx-5 rounded-xl mt-5">
               <img src={keyboard} alt="" />
-              <div className="flex">
+              <div className="flex overflow-x-auto gap-x-2 my-2">
+                <p>hi</p>
               <div className="flex pr-1 gap-x-0.5 text-xs bg-white/10 rounded-full px-2">
                 <p className="">K</p>
                 <p>Opens command line</p>
@@ -54,17 +56,23 @@ const LandingPage772 = () => {
               <p>Fly through your tasks with rapid-fire keyboards hortcuts for everything. Literally everything.</p>
             </div>
             
+            {/* lightning */}
             <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5">
               <img src={lightning} alt="" />
               <p className="text-center font-bold">Breathtakingly fast</p>
               <p className="text-center text-xs">Built for speed with 50ms interactions and real-time sync.</p>
             </div>
-            
-            <div>
-              <img src={circleshadow} alt="" />
 
+            {/* circleshadow */}
+            <div className="text-center bg-white/10 rounded-xl p-5 m-5">
+              <img src={circleshadow} alt="" className="h-fit"/>
+              <div className="-mt-25">
+                <p className="font-bold">Designed for modern software teams</p>
+                <p className="text-xs">Comes with built-in workflows that create focus and routine.</p>
+              </div>
             </div>
 
+            {/* commandline */}
             <div className="">
               <img src={commandline} alt="" />
             </div>
