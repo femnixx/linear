@@ -37,24 +37,26 @@ const LandingPage772 = () => {
         
       </div>
       <div className=" flex flex-col">
-            <div className="bg-white/7 p-5 mx-5 rounded-xl">
+            <div className="bg-white/7 p-3 mx-5 rounded-xl">
               <img src={keyboard} alt="" />
               <div className="flex">
-              <div className="flex gap-x-3">
-                <p className="pr-1">K</p>
+              <div className="flex pr-1 gap-x-0.5 text-xs">
+                <p className="">K</p>
                 <p>Opens command line</p>
               </div>
-              <div className="flex gap-x-3">
-                <p className="pr-1">I</p>
-                <p>Assign issue to </p>
+              <div className="flex gap-x-1 pr-1 text-xs">
+                <p className="">I</p>
+                <p>Assign issue to me</p>
               </div>
               </div>
               <p>Built for your keyboard</p>
               <p>Fly through your tasks with rapid-fire keyboards hortcuts for everything. Literally everything.</p>
             </div>
-            <div>
+            
+            <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5">
               <img src={lightning} alt="" />
             </div>
+            
             <div>
               <img src={circleshadow} alt="" />
             </div>
