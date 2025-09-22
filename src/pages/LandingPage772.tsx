@@ -41,7 +41,7 @@ const LandingPage772 = () => {
             {/* keyboard */}
             <div className="bg-white/7 p-3 mx-5 rounded-xl mt-5 ">
               <img src={keyboard} alt="" />
-              <div className="flex x-scroll gap-x-1 justify-end">
+              <div className="flex x-scr gap-x-1 justify-end">
               <div className="flex pr-1 gap-x-0.5 text-xs bg-white/10 rounded-full px-2">
                 <p className="text-[12px]">K</p>
                 <p className="text-[10px]">Opens command line</p>
