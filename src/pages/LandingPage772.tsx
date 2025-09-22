@@ -56,8 +56,8 @@ const LandingPage772 = () => {
             
             <div className="bg-white/7 p-5 mx-5 rounded-xl mt-5">
               <img src={lightning} alt="" />
-              <p>Breathtakingly fast</p>
-              <p>Built for speed with 50ms interactions and real-time sync.</p>
+              <p className="text-center font-bold">Breathtakingly fast</p>
+              <p className="text-center text-xs">Built for speed with 50ms interactions and real-time sync.</p>
             </div>
             
             <div>
