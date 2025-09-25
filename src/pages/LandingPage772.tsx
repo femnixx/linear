@@ -105,10 +105,57 @@ const LandingPage772 = () => {
   </div>
 
   {/* Paragraph below stays responsive */}
-  <p className="mt-4 text-gray-300 text-center px-4 sm:px-10 md:px-20 text-sm sm:text-base">
+  <p className="text-xs mt-10 text-gray-300 text-center px-4 sm:px-10 md:px-20 sm:text-base">
     Create tasks in seconds, discuss issues in context, and breeze through your
     work in views tailored to you and your team.
   </p>
+</div>
+
+<div className=" flex justify-center">
+  <div className="p-3 grid-cols-3 grid justify-center gaps-6">
+    <div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+      <p>hi</p>
+    </div>
+    <div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+      <p>hi</p>
+    </div>
+    <div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+      <p>hi</p>
+    </div>
+    <div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+      <p>hi</p>
+    </div>
+    <div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+      <p>hi</p>
+    </div>
+    <div>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+      <p>hi</p>
+    </div>
+  </div>
 </div>
 
 </div>
