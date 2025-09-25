@@ -83,18 +83,35 @@ const LandingPage772 = () => {
               <img src={commandline} alt="" className="mt-5"/>
             </div>
           </div>
-          <div className=" mt-10">
-    <p className="relative text-xl bg-gradient-to-b bg-clip-text text-transparent from-white/40 to-white font-semibold">
-      Issue tracking <br /> you'll enjoy using
-    </p>
-    <div className="bg-gradient-to-b from-white/20 m-6 rounded-xl">
-      <img src={issuetracking} alt="" />
+    <div className="relative mt-10 m-3">
+  {/* Container stays in flow, image defines height */}
+  <div className="mt-10 m-3">
+  <div className="relative w-full">
+    {/* Image fills width and keeps aspect ratio */}
+    <div className="bg-gradient-to-b from-white/20 rounded-xl overflow-hidden">
+      <img
+        src={issuetracking}
+        alt=""
+        className="w-full h-auto object-cover rounded-xl"
+      />
+    </div>
+
+    {/* Text positioned responsively at the bottom */}
+    <div className="absolute inset-0 flex items-end p-4 sm:p-6 md:p-8">
+      <p className="text-lg sm:text-xl md:text-2xl bg-gradient-to-b bg-clip-text text-transparent from-white/40 to-white font-semibold">
+        Issue tracking <br /> you'll enjoy using
+      </p>
+    </div>
   </div>
 
-</div>
-  <p className="mt-4">
-    Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team.
+  {/* Paragraph below stays responsive */}
+  <p className="mt-4 text-gray-300 text-center px-4 sm:px-10 md:px-20 text-sm sm:text-base">
+    Create tasks in seconds, discuss issues in context, and breeze through your
+    work in views tailored to you and your team.
   </p>
+</div>
+
+</div>
 
     </div>
   );
