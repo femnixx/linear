@@ -83,20 +83,18 @@ const LandingPage772 = () => {
               <img src={commandline} alt="" className="mt-5"/>
             </div>
           </div>
-          <div className="w-full h-full mt-10">
-  <div className="relative">
-    <p className="left-5 bottom-24 text-xl bg-gradient-to-b bg-clip-text text-transparent from-white/40 to-white font-semibold">
+          <div className=" mt-10">
+    <p className="relative text-xl bg-gradient-to-b bg-clip-text text-transparent from-white/40 to-white font-semibold">
       Issue tracking <br /> you'll enjoy using
     </p>
     <div className="bg-gradient-to-b from-white/20 m-6 rounded-xl">
       <img src={issuetracking} alt="" />
-    </div>
   </div>
 
+</div>
   <p className="mt-4">
     Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team.
   </p>
-</div>
 
     </div>
   );
