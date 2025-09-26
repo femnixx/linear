@@ -109,7 +109,7 @@ const LandingPage772 = () => {
 </div>
 
 <div className=" flex justify-center">
-  <div className="p-3 grid-cols-3 grid justify-center gap-x-8 gap-y-5">
+  <div className="text-xs p-3 grid-cols-2 grid justify-center gap-x-4 gap-y-5">
     <div>
       <div className="flex">
         <img src="" alt="" />
