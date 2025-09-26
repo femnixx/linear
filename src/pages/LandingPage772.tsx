@@ -88,6 +88,9 @@ const LandingPage772 = () => {
   <div className="mt-10 m-3">
   <div className="relative w-full">
     {/* Image fills width and keeps aspect ratio */}
+    <p className="-mb-5 text-lg sm:text-xl md:text-2xl bg-gradient-to-b bg-clip-text text-transparent from-white/40 to-white font-semibold">
+        Issue tracking <br /> you'll enjoy using
+      </p>
     <div className="bg-gradient-to-b from-white/20 rounded-xl overflow-hidden">
       <img
         src={issuetracking}
@@ -96,16 +99,10 @@ const LandingPage772 = () => {
       />
     </div>
 
-    {/* Text positioned responsively at the bottom */}
-    <div className="absolute inset-0 flex items-end p-4 sm:p-6 md:p-8">
-      <p className="text-lg sm:text-xl md:text-2xl bg-gradient-to-b bg-clip-text text-transparent from-white/40 to-white font-semibold">
-        Issue tracking <br /> you'll enjoy using
-      </p>
-    </div>
   </div>
 
   {/* Paragraph below stays responsive */}
-  <p className="text-xs mt-10 text-gray-300 text-center px-4 sm:px-10 md:px-20 sm:text-base">
+  <p className="text-xs  text-gray-300 text-center px-4 sm:px-10 md:px-20 sm:text-base">
     Create tasks in seconds, discuss issues in context, and breeze through your
     work in views tailored to you and your team.
   </p>
