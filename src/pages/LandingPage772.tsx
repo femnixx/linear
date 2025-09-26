@@ -111,53 +111,53 @@ const LandingPage772 = () => {
 <div className=" flex justify-center">
   <div className="p-3 grid-cols-3 grid justify-center gap-x-8 gap-y-5">
     <div>
-      <div>
+      <div className="flex">
         <img src="" alt="" />
-        <p></p>
+        <p>Parent and sub-issues.</p>
       </div>
-      <p>hi</p>
+      <p>Break larger tasks into smaller issues.</p>
     </div>
 
     <div>
-      <div>
+      <div className="flex">
         <img src="" alt="" />
-        <p></p>
+        <p>Automated backing.</p>
       </div>
-      <p>hi</p>
+      <p>Linear will auto-close and auto-archive issues.</p>
     </div>
 
     <div>
-      <div>
+      <div className="flex">
         <img src="" alt="" />
-        <p></p>
+        <p>Custom workflows.</p>
       </div>
-      <p>hi</p>
+      <p>Define unique issue states for each team.</p>
     </div>
 
     <div>
-      <div>
+      <div className="flex">
         <img src="" alt="" />
-        <p></p>
+        <p>Filter and custom views.</p>
       </div>
-      <p>hi</p>
+      <p>See only what's relevant for you.</p>
     </div>
 
     <div>
-      <div>
+      <div className="flex">
         <img src="" alt="" />
-        <p></p>
+        <p>Discussion.</p>
       </div>
-      <p>hi</p>
+      <p>Collaborate on issues without losing context.</p>
     </div>
 
     <div>
-      <div>
+      <div className="flex">
         <img src="" alt="" />
-        <p></p>
+        <p>Issue templates.</p>
       </div>
-      <p>hi</p>
+      <p>Guide your team to write effective issues.</p>
     </div>
-    
+
   </div>
 </div>
 
