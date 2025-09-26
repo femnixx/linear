@@ -109,7 +109,7 @@ const LandingPage772 = () => {
 </div>
 
 <div className=" flex justify-center">
-  <div className="p-3 grid-cols-3 grid justify-center gaps-6">
+  <div className="p-3 grid-cols-3 grid justify-center gap-x-8 gap-y-5">
     <div>
       <div>
         <img src="" alt="" />
@@ -117,6 +117,7 @@ const LandingPage772 = () => {
       </div>
       <p>hi</p>
     </div>
+
     <div>
       <div>
         <img src="" alt="" />
@@ -124,6 +125,7 @@ const LandingPage772 = () => {
       </div>
       <p>hi</p>
     </div>
+
     <div>
       <div>
         <img src="" alt="" />
@@ -131,6 +133,7 @@ const LandingPage772 = () => {
       </div>
       <p>hi</p>
     </div>
+
     <div>
       <div>
         <img src="" alt="" />
@@ -138,6 +141,7 @@ const LandingPage772 = () => {
       </div>
       <p>hi</p>
     </div>
+
     <div>
       <div>
         <img src="" alt="" />
@@ -145,6 +149,7 @@ const LandingPage772 = () => {
       </div>
       <p>hi</p>
     </div>
+
     <div>
       <div>
         <img src="" alt="" />
@@ -152,6 +157,7 @@ const LandingPage772 = () => {
       </div>
       <p>hi</p>
     </div>
+    
   </div>
 </div>
 
