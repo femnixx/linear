@@ -112,7 +112,7 @@ const LandingPage772 = () => {
   <div className="text-xs p-3 grid-cols-1 grid justify-center gap-x-4 gap-y-5">
     <div>
       <div className="flex">
-        <img src="" alt="" />
+        import { AiOutlineApartment } from 'react-icons/ai';
         <p>Parent and sub-issues.</p>
       </div>
       <p>Break larger tasks into smaller issues.</p>
@@ -160,7 +160,17 @@ const LandingPage772 = () => {
 
   </div>
 </div>
-
+{/* cards */}
+<div className="block">
+  <div className="bg-radial from-[#C261FE26]/15 to-white/15">
+    <p>List and board</p>
+    <p>Switch between list and board layout to view work from any angle.</p>
+  </div>
+  <div>
+  
+  </div>
+  
+</div> 
 </div>
 
     </div>
